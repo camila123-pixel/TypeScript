@@ -1,7 +1,7 @@
-import{ Usuario } from "./usuario.js"
-export class serviciosUsuario{
+import { Usuario } from "./usuario.js"
+export class serviciosUsuario {
     private usuarios: Usuario[] = [];
-    agregar(usuario: Usuario){
+    agregar(usuario: Usuario) {
         this.usuarios.push(usuario);
     }
     listar(): Usuario[] {
